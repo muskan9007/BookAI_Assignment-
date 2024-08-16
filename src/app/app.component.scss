@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+:root {
+    --primary-bg: linear-gradient(135deg, #1e0533, #110a1f);
+    --accent-color: #8a2be2;
+    --text-color: #ffffff;
+    --text-secondary: #b3b3b3;
+    --gradient-1: linear-gradient(45deg, #726bff, #57b6fe);
+    --gradient-2: linear-gradient(45deg, #8a2be2, #4b0082);
+  }
+.ai-demo {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+//   .ai-demo img {
+//     max-width: 100%;
+//     border-radius: 10px;
+//     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+//     transition: transform 0.3s ease;
+//   }
+
+//   .ai-demo img:hover {
+//     transform: scale(1.05);
+//   }
+
+//   .floating-ui {
+//     position: absolute;
+//     background: rgba(255, 255, 255, 0.1);
+//     backdrop-filter: blur(10px);
+//     border-radius: 10px;
+//     padding: 10px;
+//     display: flex;
+//     align-items: center;
+//     transition: opacity 0.3s ease;
+//   }
+
+//   .floating-ui.top-left {
+//     top: 20px;
+//     left: 20px;
+//   }
+
+//   .floating-ui.bottom-right {
+//     bottom: 20px;
+//     right: 20px;
+//   }
+
+//   .floating-icon {
+//     width: 24px;
+//     height: 24px;
+//     background: var(--gradient-1);
+//     border-radius: 50%;
+//     margin-right: 10px;
+//   }
+
+//   .features {
+//     display: flex;
+//     justify-content: space-around;
+//     margin-top: 80px;
+//     flex-wrap: wrap;
+//   }
+
+//   .feature {
+//     text-align: center;
+//     flex-basis: calc(25% - 20px);
+//     margin-bottom: 40px;
+//     transition: transform 0.3s ease;
+//   }
+
+//   .feature:hover {
+//     transform: translateY(-10px);
+//   }
+
+//   .feature-icon {
+//     width: 60px;
+//     height: 60px;
+//     background: var(--gradient-2);
+//     border-radius: 50%;
+//     margin: 0 auto 20px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: 24px;
+//     color: var(--text-color);
+//   }
