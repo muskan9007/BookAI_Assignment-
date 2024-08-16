@@ -23,7 +23,7 @@ export class HomePageComponent {
   ngOnInit() { }
 
   public priceBtn(action:any) {
-    console.log(action)
+   
     this.router.navigate(['/price'])
   }
 
@@ -33,13 +33,11 @@ export class HomePageComponent {
       if(value){
         this.modeForm.get('modeValue')?.patchValue('dark');
         document.body.setAttribute('data-theme', 'dark');
-        // document.documentElement.setAttribute('theme', 'dark');
+        
       }
       else{
         this.modeForm.get('modeValue')?.patchValue('light');
         document.body.setAttribute('data-theme', 'light');
-
-        // document.documentElement.setAttribute('theme', null);
       }
       console.log(this.modeForm.get('modeValue')?.value)
     })
